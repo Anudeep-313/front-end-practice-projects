@@ -1,1 +1,218 @@
-<!-- should upload -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>CLone of Zerodha HomePage</title>
+        <link rel="image_src" href="/images/landing.png" />
+        <link rel="icon" type="image/png" href="/images/favicon.png" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Inter:400,500"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-responsive row between">
+                    <div class="relative-section five columns">
+                        <a href="#">
+                            <img
+                                class="logo-img"
+                                src="/images/logo.svg"
+                                alt="Zerodha logo"
+                            />
+                        </a>
+                    </div>
+                    <div
+                        class="nav-active seven columns"
+                        role="navigation"
+                        aria-label="main navigation"
+                    >
+                        <ul class="navbar-links">
+                            <li class="hide-on-small">
+                                <a href="#">Signup</a>
+                            </li>
+                            <li class="hide-on-small">
+                                <a
+                                    class="nav-links"
+                                    href="#"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="hide-on-small">
+                                <a
+                                    class="nav-links"
+                                    href="#"
+                                    >Products</a
+                                >
+                            </li>
+                            <li class="hide-on-small">
+                                <a
+                                    class="nav-links"
+                                    href="#"
+                                    >Pricing</a
+                                >
+                            </li>
+                            <li class="hide-on-small">
+                                <a href="#"
+                                    >Support</a
+                                >
+                            </li>
+                            <!-- <li class="hide-on-small signup-link">
+                            <a class="nav-links" id="nav_acop" href="https://zerodha.com/open-account/">Sign up</a>
+                        </li> -->
+                            <li id="navbar_menu">
+                                <div
+                                    class="cursor-pointer"
+                                    id="menu_btn"
+                                    onclick="toggleMenu()"
+                                    title="Menu"
+                                >
+                                    <div id="nav-icon3">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div id="menu" class="navbar-menu text-left">
+                                    <ul class="navbar-links show-on-mobile">
+                                        <li class="nav-links">
+                                            <a href="#"
+                                                >Signup</a
+                                            >
+                                        </li>
+                                        <li class="hide-on-small">
+                                            <a
+                                                class="nav-links"
+                                                id="nav_acop"
+                                                href="#"
+                                                >Open account</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="nav-links"
+                                                href="#"
+                                                >About</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="nav-links"
+                                                href="#"
+                                                >Products</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                class="nav-links"
+                                                href="#"
+                                                >Pricing</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                target="_blank"
+                                                href="#"
+                                                >Support</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="show-on-mobile nav-mobile-signup">
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="content parent-content">
+            <main class="content">
+                <div class="homepage">
+                    <!-- Invest in everything -->
+                    <section class="text-center landing">
+                        <div class="container">
+                            <img
+                                class="landing-image"
+                                src="/images/landing.png"
+                                alt="Zerodha, no. 1 stock broker in India"
+                            />
+                            <h1 class="landing-heading text-center">
+                                Invest in everything
+                            </h1>
+                            <h5 class="landing-subheading text-center">
+                                Online platform to invest in stocks,
+                                derivatives, mutual funds, and more
+                            </h5>
+                            <a
+                                href="#"
+                                class="button"
+                                id="acop_link"
+                                >Sign up now</a
+                            >
+                        </div>
+                    </section>
+                    <!-- Largest Stock broker -->
+                    <section class="marketing">
+                        <div class="container">
+                            <div class="row between v-align">
+                                <div class="columns five text-center">
+                                    <img
+                                        class="img-margin"
+                                        src="/images/largest-broker.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="columns six">
+                                    <h2>Largest stock broker in India</h2>
+                                    <p>
+                                        8+ million Zerodha clients contribute to
+                                        over 15% of all retail order volumes in
+                                        India daily by trading and investing in:
+                                    </p>
+                                    <div class="row">
+                                        <div
+                                            class="columns six no-margin-mobile"
+                                        >
+                                            <ul class="list-items">
+                                                <li>Futures and Options</li>
+                                                <li>Commodity derivatives</li>
+                                                <li>Currency derivatives</li>
+                                            </ul>
+                                        </div>
+                                        <div class="columns six">
+                                            <ul class="list-items">
+                                                <li>Stocks &amp; IPOs</li>
+                                                <li>Direct mutual funds</li>
+                                                <li>
+                                                    Bonds and Govt. Securities
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p class="press-strip">
+                                        <a href="#"
+                                            ><img
+                                                src="/images/press-logos.png"
+                                        /></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </main>
+        
+    <script type="text/javascript" src="navbar.js"></script>
+    </body>
+</html>
+
